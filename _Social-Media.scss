@@ -1,0 +1,60 @@
+.social-media {
+        color:white;
+
+    &__blog{ 
+        border: solid black 1px;
+        padding-left: 20px;
+        padding-right: 20px;
+        background-color: $background-color1;}
+
+    &__twitter{ 
+        border: solid black 1px;
+        padding-left: 20px;
+        padding-right: 20px;
+        background-color: $background-color2;}
+
+    &__linkedin{ 
+        border: solid black 1px;
+        padding-left: 20px;
+        padding-right: 20px;
+        background-color: $background-color3;}
+
+    &__facebook{ 
+        border: solid black 1px;
+        padding-left: 20px;
+        padding-right: 20px;
+        background-color: $background-color4;}
+
+    &__github{ 
+        border: solid black 1px;
+        padding-left: 20px;
+        padding-right: 20px;
+        background-color: $background-color5;}
+
+
+        
+    &__blog::before {
+        font-family: "Font Awesome 5 Brands"; content: "\f5fc";}
+
+    &__twitter::before {
+        font-family: "Font Awesome 5 Brands"; content: "\f099";}
+
+    &__linkedin::before {
+        font-family: "Font Awesome 5 Brands"; content: "\f0e1";}
+
+    &__facebook::before {
+        font-family: "Font Awesome 5 Brands"; content: "\f39e";}
+    
+    &__github::before {
+        font-family: "Font Awesome 5 Brands"; content: "\f09b";}
+    
+    &__link {
+        color:white;}
+    }
+
+span {
+    padding: 20px;}
+
+
+
+

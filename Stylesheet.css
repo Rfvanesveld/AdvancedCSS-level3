@@ -1,0 +1,67 @@
+@charset "UTF-8";
+.container {
+  background-color: #c3cfe2;
+  height: 100vh;
+  display: flex;
+}
+
+.social-media {
+  color: white;
+}
+.social-media__blog {
+  border: solid black 1px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #e17b77;
+}
+.social-media__twitter {
+  border: solid black 1px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #00aced;
+}
+.social-media__linkedin {
+  border: solid black 1px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #3b5998;
+}
+.social-media__facebook {
+  border: solid black 1px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #007bb6;
+}
+.social-media__github {
+  border: solid black 1px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #333;
+}
+.social-media__blog::before {
+  font-family: "Font Awesome 5 Brands";
+  content: "";
+}
+.social-media__twitter::before {
+  font-family: "Font Awesome 5 Brands";
+  content: "";
+}
+.social-media__linkedin::before {
+  font-family: "Font Awesome 5 Brands";
+  content: "";
+}
+.social-media__facebook::before {
+  font-family: "Font Awesome 5 Brands";
+  content: "";
+}
+.social-media__github::before {
+  font-family: "Font Awesome 5 Brands";
+  content: "";
+}
+.social-media__link {
+  color: white;
+}
+
+span {
+  padding: 20px;
+}/*# sourceMappingURL=Stylesheet.css.map */
